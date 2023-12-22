@@ -13,6 +13,9 @@ module.exports = {
       }),
       backgroundColor: theme => ({
         'lego-red': 'rgb(227, 0, 10)'
+      }),
+      screens: theme =>({
+        'xsm': '450px'
       })
     },
   },

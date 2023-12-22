@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./tailwind.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <d class="mx-auto">
+      <nav class="bg-gray-800 flex justify-between lg:justify-start items-center">
+        <div class="logo p-2 w-1/6">
+          <img src="img/logo.webp" width="70" alt="">
+        </div>
+        <div class="links lg:block hidden w-1/6 md:w-4/6">
+          <ul class="menu flex items-center justify-center gap-5">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">Play Together</a></li>
+            <li><a href="#" class="link">Explore</a></li>
+            <li><a href="#" class="link">Monsters</a></li>
+            <li><a href="#" class="rounded-full bg-yellow-500 text-white font-bold px-4 py-3 hover:text-black hover:bg-white transition duration-300">Play free now</a></li>
+          </ul>
+        </div>
+
+        <div class="block lg:hidden w-1/6 lg:w-4/6">
+          <a href="#" class="link" id="mobile-menu">Menu</a>
+          <ul class="mobile-links hidden w-full absolute z-50 left-0 text-center bg-gray-800">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">Play Together</a></li>
+            <li><a href="#" class="link">Explore</a></li>
+            <li><a href="#" class="link">Monsters</a></li>
+            <li><a href="#" class="my-4 inline-block rounded-full bg-yellow-500 text-white font-bold px-4 py-3 hover:text-black hover:bg-white transition duration-300">Play free now</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="header">
+        <img src="img/banerd.webp" alt="">
+      </section>
+
+      <section>
+        <div class="bg-lego-block h-5 bg-repeat-x relative -top-2"></div>
+        <div class="text-center p-4 flex md:flex-row flex-col gap-3 justify-center">
+          <a href="#" class="inline-block py-3 px-16 bg-black text-white font-bold border-transparent border-8 text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200">Download free Now</a>
+          <a href="#" class="inline-block py-3 px-16 bg-red-600 text-white font-bold border-transparent border-8 text-2xl rounded-3xl hover:border-gray-200 hover:bg-white hover:text-black transition duration-200">Watch the Trailer</a>
+        </div>
+        <div class="bg-lego-block-down h-5 bg-repeat-x relative top-2"></div>
+      </section>
+
+      <div class="bg-red-bg">
+        <div class="bg-red-600 bg-opacity-80 py-10">
+            <div class="lg:container mx-auto md:flex gap-5 md:w-full p-3">
+
+              <div class="left bg-character-1 bg-no-repeat bg-contain bg-top w-5/6 md:w-1/2 pt-52 mx-auto">
+                <div class="card text-center bg-white 2xl:w-5/6 mx-auto mt-72 rounded-2xl overflow-hidden xl: 2-4/5">
+                  <div class="cover bg-black">
+                    <video src="videos/videoplayback.mp4" autoplay loop muted></video>
+                  </div>
+                  <div class="content bg-lego-block bg-repeat-x relative -top-3">
+                    <h3 class="font-black text-4xl py-10">Play together</h3>
+                    <p class="text-xl">
+                      Play with your friends wherever you want.
+                    </p>
+
+                    <a href="#" class="boton group">Watch the Trailer <span class="arrow arrow-group"></span>
+                    </a>
+                  </div>
+                  <div class="dots flex justify-between p-4">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="right w-5/6 md:w-1/2 text-center mx-auto">
+                <div class="card bg-black bg-opacity-35 rounded-2xl pb-6">
+                  <h2 class="font-black text-white text-6xl py-8">Available Now</h2>
+
+                  <p class="font-bold text-white text-2xl mx-auto py-2 w-4/5 ">
+                    Unleash your creativity to build and customize your ultimate base with LEGO® elements found around the world and recruit villagers to gather materials to help you survive the night. Gear up and delve into deep caves in search of rare resources and hidden areas.
+                  </p>
+                </div>
+                <div class="card text-center bg-white 2xl:w-5/6 mx-auto mt-16 rounded-2xl overflow-hidden xl: 2-4/5">
+                  <div class="cover bg-black">
+                    <video src="videos/videoplayback-2.mp4" autoplay loop muted></video>
+                  </div>
+                  <div class="content bg-lego-block bg-repeat-x relative -top-3">
+                    <h3 class="font-black text-4xl py-10">Explore</h3>
+                    <p class="text-xl">
+                      Explore vast open worlds where the magic of LEGO® building and Fortnite merge.
+                    </p>
+
+                    <a href="#" class="boton group">Watch the Trailer <span class="arrow arrow-group"></span>
+                    </a>
+                  </div>
+                  <div class="dots flex justify-between p-4">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="bg-lego-block h-5 bg-repeat-x relative top-2"></div>
+          <div class="footer text-center flex justify-center bg-white">
+            <img src="img/Lego Brick Loader.gif" alt="gif" class="w-[200px] h-[170px] sm:2-[230px] sm:h-[200]">
+            <img src="img/Lego Brick Loader.gif" alt="gif" class="w-[200px] h-[170px] sm:2-[230px] sm:h-[200]">
+            <img src="img/Lego Brick Loader.gif" alt="gif" class="w-[200px] h-[170px] sm:2-[230px] sm:h-[200]">
+          </div>
+          <div class="bg-lego-block-down h-5 bg-repeat-x relative -top-2 z-20"></div>
+        </div>
+
+        <section class="bg-yellow-400">
+          <div class="bg-lego-block-down-pink bg-repeat-x h-6 relative -top-4 z-10"></div>
+          <div class="bg-lego-block-down-blue bg-repeat-x h-6 relative -top-7"></div>
+
+          <div class="sm:w-full sm:container w-2/3 mx-auto md:flex justify-center items-center text-center py-6">
+            <div class="left xl:w-1/3 lg:w-1/2 p-5">
+              <h3 class="text-yellow-900 font-black sm:text-3xl">
+                Free skin
+              </h3>
+              <p class="py-4 text-xl">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, numquam impedit? Culpa possimus.
+              </p>
+              <p>
+                <a href="#" class="boton group">
+                  Epic! <span class="arrow arrow-group"></span>
+                </a>
+              </p>
+            </div>
+            <div class="right xl:w-2/3 lg:w-1/2">
+              <img src="img/free-skin.webp" class="md:w-full" alt="">
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <div class="bg-lego-block-down bg-repeat-x h-6 relative -top-4"></div>
+          
+          <div class="container mx-auto text-center py-10 w-2/3">
+            <div class="pb-5">
+              <a href="#" class="boton group">
+                Customer Support
+                <span class="arrow arrow-group"></span>
+              </a>
+            </div>
+
+            <div class="text-white">
+              <div class="py-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam molestias architecto voluptatum impedit
+              </div>
+              <div class="py-2">
+                Quod fuga voluptatibus totam facilis quam dignissimos ea, exercitationem animi sequi repellendus, quibusdam labore repudiandae quasi? Eius fugit odio modi perferendis nemo.
+              </div>
+              <div class="py-2">
+                Explicabo suscipit expedita fugit nisi quod nesciunt similique quia natus, illum dignissimos tempore? Ipsa saepe quisquam distinctio iste ex eius veritatis vitae!
+              </div>
+              <div class="py-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam molestias architecto voluptatum impedit
+              </div>
+            </div>
+
+            <div class="text-white text-[20px] font-bold">
+              All rights reserved to Albieri Garcia - 12-2023
+            </div>
+          </div>
+        </section>
+    </div>
+
+    
+
+    <script>
+      const menuButton = document.querySelector('#mobile-menu');
+
+      menuButton.addEventListener('click', e => {
+        const menu = document.querySelector('.mobile-links');
+
+        menu.classList.toggle('hidden');
+      })
+    </script>
+  </body>
+</html>
